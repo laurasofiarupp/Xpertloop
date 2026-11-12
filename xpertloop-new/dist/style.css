@@ -148,3 +148,5 @@ aside{background:#f8faff;transition:none}aside::before{inset:-24% -45%;backgroun
 
 .billing-history-table{table-layout:fixed;width:100%;min-width:680px}.billing-history-table th,.billing-history-table td{box-sizing:border-box;overflow-wrap:break-word}.billing-history-table tbody tr{height:82px}.billing-history-table .text-button{white-space:nowrap}
 
+
+.group-filter{display:inline-flex;align-items:center;justify-content:center;min-height:32px;box-sizing:border-box;line-height:1;padding:2px 12px 0;transition:background-color .2s,border-color .2s,transform .25s ease;scale:1}.group-filter:hover{transform:translateY(-2px);scale:1}.group-filter:active{transform:translateY(0);scale:1}.group-filter small{line-height:1;margin:0}.group-filter i{display:block;box-sizing:border-box;width:6px;height:6px;min-width:6px;max-width:6px;min-height:6px;max-height:6px;flex:0 0 6px;border-radius:50%;padding:0;margin:0;align-self:center;transform:translateY(-1px)}@media(prefers-reduced-motion:reduce){.group-filter:hover,.group-filter:active{transform:none}}
