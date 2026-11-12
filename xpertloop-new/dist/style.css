@@ -158,3 +158,5 @@ aside{background:#f8faff;transition:none}aside::before{inset:-24% -45%;backgroun
 .agent-card-status:before,.agent-card-status::after{content:none!important;display:none!important}.agent-group .group-heading i,.grouped-card .group-pill i{display:none}.agent-card-status{gap:0}
 
 .filter-results .agent-card{animation-duration:1.5s;animation-timing-function:cubic-bezier(.18,.75,.28,1);animation-fill-mode:backwards}@media(prefers-reduced-motion:reduce){.filter-results .agent-card{animation:none}}
+
+.agent-card.grouped-card,.agent-card.grouped-card:hover{scale:1!important;transform:none!important}.agent-card.grouped-card{transition:translate .35s ease,border-color .25s ease}.agent-card.grouped-card:hover{translate:0 -5px}.grouped-card .secondary:hover{transform:none;scale:1;translate:0 0}@media(prefers-reduced-motion:reduce){.agent-card.grouped-card:hover{translate:none}}
