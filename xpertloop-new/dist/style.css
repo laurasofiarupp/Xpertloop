@@ -106,3 +106,5 @@ aside{background:#f8faff;transition:none}aside::before{inset:-24% -45%;backgroun
 .billing-facts{border-bottom:1px solid #edf1f5}
 
 .usage-plan-note{font-size:12px;margin-top:20px}.usage-plan-note .text-button{font-size:12px;margin-left:5px}
+
+.invoice-description{display:block;font-size:12px;font-weight:550;color:#263449;line-height:1.5}.invoice-reference{display:block;font-size:10px;color:#8c97a6;margin-top:5px}@media(max-width:720px){.invoice-description{font-size:10px}.invoice-reference{font-size:9px}}
