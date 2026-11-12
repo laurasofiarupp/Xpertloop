@@ -125,3 +125,5 @@ aside{background:#f8faff;transition:none}aside::before{inset:-24% -45%;backgroun
 .reference-plan-options .plan-option:not(.is-current){background:transparent;border:1px solid #dde5ee}.plan-help{background:transparent;padding:18px 0;border-radius:0}
 
 .reference-plan-options .is-current .plan-option-price{margin-bottom:18px}.reference-plan-options .current-plan-choice:disabled{background:#fff;color:#5f859d;border-color:#c6ddea;opacity:1;cursor:default}
+
+.plan-title-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px}.reference-plan-options .plan-title-row h2{margin:0}.plan-current-inline{font-size:10px;font-weight:400;line-height:1.4;color:#8b96a5}
