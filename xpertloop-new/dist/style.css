@@ -104,3 +104,5 @@ aside{background:#f8faff;transition:none}aside::before{inset:-24% -45%;backgroun
 
 .current-plan-pill{height:25px;padding:2px 10px 0;line-height:1;align-items:center;justify-content:center;box-sizing:border-box}.billing-cycle-link{color:var(--blue);font-size:11px;font-weight:550;padding:0;line-height:1.5}.billing-cycle-link:hover{text-decoration:underline;text-underline-offset:3px}
 .billing-facts{border-bottom:1px solid #edf1f5}
+
+.usage-plan-note{font-size:12px;margin-top:20px}.usage-plan-note .text-button{font-size:12px;margin-left:5px}
