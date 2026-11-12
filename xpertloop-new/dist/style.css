@@ -160,3 +160,5 @@ aside{background:#f8faff;transition:none}aside::before{inset:-24% -45%;backgroun
 .filter-results .agent-card{animation-duration:1.5s;animation-timing-function:cubic-bezier(.18,.75,.28,1);animation-fill-mode:backwards}@media(prefers-reduced-motion:reduce){.filter-results .agent-card{animation:none}}
 
 .agent-card.grouped-card,.agent-card.grouped-card:hover{scale:1!important;transform:none!important}.agent-card.grouped-card{transition:translate .35s ease,border-color .25s ease}.agent-card.grouped-card:hover{translate:0 -5px}.grouped-card .secondary:hover{transform:none;scale:1;translate:0 0}@media(prefers-reduced-motion:reduce){.agent-card.grouped-card:hover{translate:none}}
+
+.group-filters .group-filter{padding:0 13px;align-items:center;justify-content:center;line-height:1}.group-filters .group-filter small{padding:0;margin:0;line-height:1}.group-filters .group-filter i{margin:0;align-self:center}
