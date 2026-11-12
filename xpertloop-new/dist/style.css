@@ -108,3 +108,5 @@ aside{background:#f8faff;transition:none}aside::before{inset:-24% -45%;backgroun
 .usage-plan-note{font-size:12px;margin-top:20px}.usage-plan-note .text-button{font-size:12px;margin-left:5px}
 
 .invoice-description{display:block;font-size:12px;font-weight:550;color:#263449;line-height:1.5}.invoice-reference{display:block;font-size:10px;color:#8c97a6;margin-top:5px}@media(max-width:720px){.invoice-description{font-size:10px}.invoice-reference{font-size:9px}}
+
+.invoice-pagination{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 24px;border-top:1px solid #e7edf4;font-size:11px;color:#78869b}.invoice-pagination nav{display:flex;gap:5px;align-items:center}.invoice-pagination button{border:1px solid #e2e9f1;background:white;color:#536278;padding:8px 11px;border-radius:8px;cursor:pointer}.invoice-pagination button.selected{background:#e8f5fc;border-color:#a4d5f2;color:#008bc5}.invoice-pagination button:disabled{opacity:.4;cursor:default}@media(max-width:600px){.invoice-pagination{flex-direction:column;align-items:flex-start}}
