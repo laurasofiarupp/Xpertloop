@@ -162,3 +162,29 @@ aside{background:#f8faff;transition:none}aside::before{inset:-24% -45%;backgroun
 .agent-card.grouped-card,.agent-card.grouped-card:hover{scale:1!important;transform:none!important}.agent-card.grouped-card{transition:translate .35s ease,border-color .25s ease}.agent-card.grouped-card:hover{translate:0 -5px}.grouped-card .secondary:hover{transform:none;scale:1;translate:0 0}@media(prefers-reduced-motion:reduce){.agent-card.grouped-card:hover{translate:none}}
 
 .group-filters .group-filter{padding:0 13px;align-items:center;justify-content:center;line-height:1}.group-filters .group-filter small{padding:0;margin:0;line-height:1}.group-filters .group-filter i{margin:0;align-self:center}
+/* Create-agent flow */
+.agent-wizard .progress-track{padding:0;gap:3px;width:100%;background:transparent}
+.agent-wizard .progress-track i{height:4px}
+.agent-wizard .modal-body>h3{margin:0 0 5px}
+.agent-wizard .modal-body>h3+p{margin-top:0;margin-bottom:22px;font-size:12px}
+.agent-wizard .wizard-agent-name{margin:22px 0 16px;font-size:16px}
+.agent-wizard .wizard-review{padding:0;border:0;background:none}
+.agent-wizard .wizard-review p{display:flex;justify-content:flex-start;gap:8px;margin:0 0 13px;font-size:13px;line-height:1.5}
+.agent-wizard .wizard-review strong{font-weight:700}
+.agent-wizard .wizard-review span{font-weight:400}
+.agent-wizard .wizard-review .wizard-review-file{padding-left:0;color:var(--muted);font-size:12px;margin-top:-5px}
+.add-another-file{margin-top:12px}
+.new-agent-prompt{padding:16px 20px;background:#eef8fc;border-bottom:1px solid var(--line)}
+.new-agent-prompt p{margin:4px 0 0;font-size:12px;color:var(--muted)}
+.setup-file-card{display:flex;align-items:center;gap:12px;padding:13px 14px;margin-top:10px;border:1px solid #dfe7ed;border-radius:10px;background:#f8fafc}
+.setup-file-copy{flex:1;min-width:0}
+.setup-file-copy strong{display:block;font-size:12px;font-weight:550;overflow-wrap:anywhere}
+.setup-file-copy small{display:block;font-size:11px;margin-top:4px;color:var(--muted)}
+.setup-file-status{margin-left:8px;color:#15815e;font-weight:500}
+.setup-file-remove{flex:none;width:28px;height:28px;display:grid;place-items:center;border-radius:6px;font-size:20px;line-height:1;color:#667386}
+.setup-file-remove:hover{background:#e9edf2;color:#25324a}
+.setup-file-progress{height:3px;margin-top:9px;border-radius:3px;background:#dcebf2;overflow:hidden}
+.setup-file-progress i{display:block;width:40%;height:100%;background:var(--blue);animation:setup-file-reading .8s ease-in-out infinite}
+@keyframes setup-file-reading{from{transform:translateX(-100%)}to{transform:translateX(350%)}}
+@media(prefers-reduced-motion:reduce){.setup-file-progress i{animation:none;width:100%}}
+.agent-wizard button:disabled{opacity:.5;cursor:wait}
